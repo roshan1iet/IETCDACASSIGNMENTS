@@ -1,0 +1,13 @@
+1.	Create COURSE Relation with following columns using Workbench.
+
+
+mysql> desc course;
++----------+---------------+------+-----+---------+-------+
+| Field    | Type          | Null | Key | Default | Extra |
++----------+---------------+------+-----+---------+-------+
+| id       | int           | NO   | PRI | NULL    |       |
+| name     | varchar(10)   | YES  |     | NULL    |       |
+| duration | varchar(10)   | YES  |     | NULL    |       |
+| sumerry  | varchar(1024) | YES  |     | NULL    |       |
++----------+---------------+------+-----+---------+-------+
+
